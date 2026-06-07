@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
-BASE = "C:/Users/sathw/OneDrive/Attachments/OneDrive/Desktop/house-price-prediction"
+import os
 
 model = joblib.load(BASE + "/models/best_model.pkl")
 scaler = joblib.load(BASE + "/models/scaler.pkl")
